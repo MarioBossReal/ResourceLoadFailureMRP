@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjx25kakybk5x"]
+
+[ext_resource type="Script" path="res://RuntimeResourceLoadTest.cs" id="1_bcd3v"]
+[ext_resource type="Resource" uid="uid://bpksrtw68r62m" path="res://my_resource_instance.res" id="2_463rc"]
+
+[node name="RuntimeResourceLoadTest" type="Node"]
+script = ExtResource("1_bcd3v")
+AnyType = ExtResource("2_463rc")
+ResourcePath = "res://my_resource_instance.res"
